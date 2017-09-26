@@ -1,8 +1,8 @@
-# kärmäbot
+# karmabotX
 
-![kärmäbot screenshot](/karmabot.png "kärmäbot in action")
+![karmabotX screenshot](/karmabot.png "karmabotX in action")
 
-kärmäbot is a bot for upvoting and downvoting people in your [Slack](https://slack.com) room. It's built on the [Hubot](http://hubot.github.com/) framework for use with [Slack](https://slack.com). 
+karmabotX is a bot for upvoting and downvoting people in your [Slack](https://slack.com) room. It's built on the [Hubot](http://hubot.github.com/) framework for use with [Slack](https://slack.com). 
 
 ## Getting Started
 
@@ -21,7 +21,7 @@ This is a modified set of instructions based on the [Slack hubot-slack repo](htt
 - Add the config variables:
 
         % heroku config:add HUBOT_SLACK_TOKEN=xoxb-1234-5678-91011-00e4dd
-        % heroku config:add HUBOT_SLACK_BOTNAME=kärmäbot
+        % heroku config:add HUBOT_SLACK_BOTNAME=karmabotX
         % heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s  | grep web-url | cut -d= -f2)
                  
 - Deploy and start the bot:
@@ -35,7 +35,7 @@ This is a modified set of instructions based on the [Slack hubot-slack repo](htt
 This adapter uses the following environment variables:
 
  - `HUBOT_SLACK_TOKEN` - this is the API token for the Slack user you would like to run Hubot under.
- - `HUBOT_SLACK_BOTNAME` - this is only for the kärmäbot leaderboard, it was required for earlier Slack Hubot integrations.
+ - `HUBOT_SLACK_BOTNAME` - this is only for the karmabotX leaderboard, it was required for earlier Slack Hubot integrations.
  - `HUBOT_HEROKU_KEEPALIVE_URL` - keepalive
 
 To add or remove your bot from specific channels or private groups, you can use the /kick and /invite slash commands that are built into Slack.
